@@ -22,16 +22,17 @@ Testing the webserver.
 
 # PROGRAM:
 ```
-
-from http.server import HTTPServer, BaseHTTPRequestHandler
-
-content = '''<html>
+<html>
 <head>
 <title>TCP/IP Model</title>
 </head>
-<body>
+<body  bgcolor="yellow">
 
-<pre align="center">
+<pre>
+
+<h1>TCP/IP Model</h1>
+The TCP/IP model, also known as the Internet Protocol Suite, is a set of communication protocols
+
 1. **Application Layer**
 
    * HTTP (HyperText Transfer Protocol)
@@ -61,27 +62,14 @@ content = '''<html>
 
 
 
-</html>'''
-
-class MyServer(BaseHTTPRequestHandler):
-    def do_GET(self):
-        print("Get request received...")
-        self.send_response(200)
-        self.send_header("content-type", "text/html")
-        self.end_headers()
-        self.wfile.write(content.encode())
-
-print("This is my webserver")
-server_address = ('', 8000)
-httpd = HTTPServer(server_address, MyServer)
-httpd.serve_forever()
-
+</html>
 
 ```
 # OUTPUT:
-![alt text](<Screenshot 2025-09-19 112021.png>)
-
-![alt text](<Screenshot 2025-09-19 112318.png>)
+![alt text](<Screenshot 2025-09-22 104435.png>)
+![alt text](<Screenshot 2025-09-22 104501.png>)
+![alt text](<Screenshot 2025-09-22 104519.png>)
+![alt text](<Screenshot 2025-09-22 104528.png>)
 
 # RESULT:
 The program for implementing simple webserver is executed successfully.

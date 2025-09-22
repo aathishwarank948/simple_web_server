@@ -5,9 +5,13 @@ content = '''<html>
 <head>
 <title>TCP/IP Model</title>
 </head>
-<body align="center">
+<body  bgcolor="yellow">
 
 <pre>
+
+<h1>TCP/IP Model</h1>
+The TCP/IP model, also known as the Internet Protocol Suite, is a set of communication protocols
+
 1. **Application Layer**
 
    * HTTP (HyperText Transfer Protocol)
