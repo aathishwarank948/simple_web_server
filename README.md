@@ -66,10 +66,12 @@ The TCP/IP model, also known as the Internet Protocol Suite, is a set of communi
 
 ```
 # OUTPUT:
-![alt text](<Screenshot 2025-09-22 104435.png>)
+ 
 ![alt text](<Screenshot 2025-09-22 104501.png>)
 ![alt text](<Screenshot 2025-09-22 104519.png>)
 ![alt text](<Screenshot 2025-09-22 104528.png>)
+<img width="1568" height="232" alt="Screenshot 2025-09-22 111732" src="https://github.com/user-attachments/assets/0aca460b-feea-4f61-803c-d759cdba7a44" />
+
 
 # RESULT:
 The program for implementing simple webserver is executed successfully.
